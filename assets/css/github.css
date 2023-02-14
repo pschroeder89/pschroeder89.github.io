@@ -11,8 +11,8 @@ body {
   display: block;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
   color: #ffffff;
   text-decoration: none;
   font-size: 12px;
@@ -25,6 +25,6 @@ body {
 
 .github-card__meta {
   align-self: flex-end;
-  margin-right: 20px; }
+  margin-right: 10px; }
   .github-card__meta > i {
-    font-size: 16px; }
+    font-size: 12px; }
