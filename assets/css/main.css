@@ -633,7 +633,7 @@ ul.actions {
         -ms-flex-shrink: 1;
         flex-shrink: 1;
         padding: 1rem 0 0 0;
-        text-align: left;
+        text-align: center;
         width: 100%; }
         ul.actions:not(.fixed) li > * {
           width: 100%; }

@@ -71,7 +71,7 @@
 					@include vendor('flex-grow', '1');
 					@include vendor('flex-shrink', '1');
 					padding: (_size(element-margin) * 0.5) 0 0 0;
-					text-align: left;
+					text-align: center;
 					width: 100%;
 
 					> * {
