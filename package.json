@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "postcss-cli": "^10.1.0",
+    "watch": "^1.0.2",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "build:sass": "node-sass ./assets/sass/  --output ./assets/css/  --recursive",
+    "watch:sass": "yarn build:sass && yarn build:sass -w",
+    "start": "yarn watch:sass & http-server -c-1"
+  }
+}

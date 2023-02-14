@@ -1,0 +1,48 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  $color-github: #6d9fe2;
+  $gray: #ccc;
+  $text: #ffffff;
+  $spacing: 20px;
+  
+  .github-cards {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  
+  .github-card {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid $gray;
+    margin: $spacing/2;
+    padding: $spacing;
+    color: $text;
+    text-decoration: none;
+    font-size: 12px;
+    flex: 5;
+    min-width: 50px;
+
+
+
+    > h3 {
+      margin-top: 0;
+      color: $color-github;
+      font-size: 15px;
+    }
+  }
+  
+  .github-card__meta {
+    align-self: flex-end;
+    margin-right: $spacing;
+    > i {
+      font-size: 16px;
+    }
+  }
+
+  .card_title {
+    
+  }
