@@ -11,12 +11,12 @@ body {
   display: block;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  margin: 5px;
-  padding: 10px;
+  margin: 4px;
+  padding: 8px;
   color: #ffffff;
   text-decoration: none;
   font-size: 12px;
-  flex: 5;
+  flex: 1 0;
   min-width: 50px; }
   .github-card > h3 {
     margin-top: 0;
@@ -25,6 +25,6 @@ body {
 
 .github-card__meta {
   align-self: flex-end;
-  margin-right: 10px; }
+  margin-right: 8px; }
   .github-card__meta > i {
-    font-size: 16px; }
+    font-size: 12px; }

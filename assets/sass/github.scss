@@ -5,7 +5,7 @@ body {
   $color-github: #6d9fe2;
   $gray: #ccc;
   $text: #ffffff;
-  $spacing: 10px;
+  $spacing: 8px;
   
   .github-cards {
     display: flex;
@@ -23,7 +23,7 @@ body {
     color: $text;
     text-decoration: none;
     font-size: 12px;
-    flex: 5;
+    flex: 1 0;
     min-width: 50px;
 
 
@@ -39,6 +39,6 @@ body {
     align-self: flex-end;
     margin-right: $spacing;
     > i {
-      font-size: 16px;
+      font-size: 12px;
     }
   }
