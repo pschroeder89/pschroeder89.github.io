@@ -15,7 +15,7 @@ body {
   }
   
   .github-card {
-    display: block;
+    display: flex;
     box-sizing: border-box;
     border: 1px solid $gray;
     margin: $spacing/2;
@@ -25,6 +25,11 @@ body {
     font-size: 12px;
     flex: 1 0;
     min-width: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
 
     > h3 {
       margin-top: 0;
@@ -42,4 +47,8 @@ body {
     > i {
       font-size: 12px;
     }
+  }
+
+  .github-card__subs {
+    align-self: flex-end;
   }
