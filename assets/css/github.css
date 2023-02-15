@@ -5,7 +5,8 @@ body {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  width: auto; }
+  width: auto;
+  height: 25%; }
 
 .github-card {
   display: block;
@@ -17,14 +18,17 @@ body {
   text-decoration: none;
   font-size: 12px;
   flex: 1 0;
-  min-width: 50px; }
+  min-width: 50px;
+  display: inline-block; }
   .github-card > h3 {
     margin-top: 0;
     color: #6d9fe2;
     font-size: 15px; }
 
 .github-card__meta {
-  align-self: flex-end;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
   margin-right: 8px; }
   .github-card__meta > i {
     font-size: 12px; }

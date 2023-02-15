@@ -12,6 +12,7 @@ body {
     flex-flow: row;
     flex-wrap: wrap;
     width: auto;
+    height: 25%; 
   }
   
   .github-card {
@@ -25,8 +26,8 @@ body {
     font-size: 12px;
     flex: 1 0;
     min-width: 50px;
-
-
+    display: inline-block;
+    
 
     > h3 {
       margin-top: 0;
@@ -36,7 +37,9 @@ body {
   }
   
   .github-card__meta {
-    align-self: flex-end;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
     margin-right: $spacing;
     > i {
       font-size: 12px;
