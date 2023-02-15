@@ -26,7 +26,10 @@ body {
   .github-card > h3 {
     margin-top: 0;
     color: #6d9fe2;
-    font-size: 15px; }
+    font-size: 15px;
+    width: 100%; }
+  .github-card > p {
+    width: 100%; }
 
 .github-card__meta {
   align-self: flex-end;
@@ -37,4 +40,7 @@ body {
     font-size: 12px; }
 
 .github-card__subs {
-  align-self: flex-end; }
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }

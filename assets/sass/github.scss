@@ -35,7 +35,11 @@ body {
       margin-top: 0;
       color: $color-github;
       font-size: 15px;
+      width: 100%;
     }
+     > p {
+      width: 100%;
+     }
   }
   
   .github-card__meta {
@@ -51,4 +55,7 @@ body {
 
   .github-card__subs {
     align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
