@@ -1389,7 +1389,7 @@ input, select, textarea {
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
-			justify-content: center;
+			min-width: 10rem;
 		}
 
 		body.is-article-visible #header {
